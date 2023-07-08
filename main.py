@@ -1,9 +1,7 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
 
 
 app = Flask(__name__)
-cors = CORS(app)
 
 
 # List to store the posted data
